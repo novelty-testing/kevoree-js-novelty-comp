@@ -1,6 +1,6 @@
 {
-    "class": "org.kevoree.ContainerRoot@0.45535347168333831415197273484",
-    "generated_KMF_ID": "0.45535347168333831415197273484",
+    "class": "org.kevoree.ContainerRoot@0.48605656996369361415197489755",
+    "generated_KMF_ID": "0.48605656996369361415197489755",
     "nodes": [],
     "repositories": [],
     "hubs": [],
@@ -29,18 +29,18 @@
                                             "packages": [],
                                             "typeDefinitions": [
                                                 {
-                                                    "class": "org.kevoree.ComponentType@name=FunctionsImpl,version=0.1.0",
+                                                    "class": "org.kevoree.ComponentType@name=FunctionsImpl,version=0.0.1-SNAPSHOT",
                                                     "abstract": "false",
                                                     "name": "FunctionsImpl",
-                                                    "version": "0.1.0",
+                                                    "version": "0.0.1-SNAPSHOT",
                                                     "deployUnits": [
-                                                        "packages[fr]/packages[inria]/packages[diverse]/packages[noveltytesting]/packages[samples]/deployUnits[hashcode=,name=kevoree-comp-functionsimpl,version=0.1.0]"
+                                                        "packages[fr]/packages[inria]/packages[diverse]/packages[noveltytesting]/packages[samples]/deployUnits[hashcode=,name=kevoree-comp-functionsimpl,version=0.0.1-SNAPSHOT]"
                                                     ],
                                                     "superTypes": [],
                                                     "dictionaryType": [
                                                         {
-                                                            "class": "org.kevoree.DictionaryType@0.68370472593232991415197273497",
-                                                            "generated_KMF_ID": "0.68370472593232991415197273497",
+                                                            "class": "org.kevoree.DictionaryType@0.48947676178067921415197489769",
+                                                            "generated_KMF_ID": "0.48947676178067921415197489769",
                                                             "attributes": []
                                                         }
                                                     ],
@@ -84,11 +84,11 @@
                                             ],
                                             "deployUnits": [
                                                 {
-                                                    "class": "org.kevoree.DeployUnit@hashcode=,name=kevoree-comp-functionsimpl,version=0.1.0",
+                                                    "class": "org.kevoree.DeployUnit@hashcode=,name=kevoree-comp-functionsimpl,version=0.0.1-SNAPSHOT",
                                                     "name": "kevoree-comp-functionsimpl",
                                                     "hashcode": "",
                                                     "url": "",
-                                                    "version": "0.1.0",
+                                                    "version": "0.0.1-SNAPSHOT",
                                                     "requiredLibs": [],
                                                     "filters": [
                                                         {
