@@ -1,26 +1,26 @@
 {
-    "name": "kevoree-comp-functionsimpl",
-    "version": "0.0.1-SNAPSHOT",
-    "main": "./lib/FunctionsImplComp.js",
-    "kevoree": {
-        "package": "fr.inria.diverse.noveltytesting.samples"
-    },
-    "scripts": {
-        "prepublish": "grunt",
-        "postpublish": "grunt publish"
-    },
-    "keywords": [
-        "kevoree",
-        "library",
-        "comp"
-    ],
-    "dependencies": {
-        "kevoree-entities": "^5.0.0"
-    },
-    "devDependencies": {
-        "grunt": "^0.4.1",
-        "grunt-kevoree": "^4.0.0",
-        "grunt-kevoree-genmodel" : "^2.0.0",
-        "grunt-kevoree-registry" : "^2.0.0"
-    }
+  "name": "kevoree-comp-functionsimpl",
+  "version": "0.0.1",
+  "main": "./lib/FunctionsImplComp.js",
+  "kevoree": {
+    "package": "fr.inria.diverse.noveltytesting.samples"
+  },
+  "scripts": {
+    "prepublish": "grunt",
+    "postpublish": "grunt publish"
+  },
+  "keywords": [
+    "kevoree",
+    "library",
+    "comp"
+  ],
+  "dependencies": {
+    "kevoree-entities": "^5.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "grunt-kevoree": "^4.0.0",
+    "grunt-kevoree-genmodel": "^2.0.0",
+    "grunt-kevoree-registry": "^2.0.0"
+  }
 }
