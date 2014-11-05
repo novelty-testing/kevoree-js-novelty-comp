@@ -1,0 +1,120 @@
+{
+    "class": "org.kevoree.ContainerRoot@0.63774033007211981415196974270",
+    "generated_KMF_ID": "0.63774033007211981415196974270",
+    "nodes": [],
+    "repositories": [],
+    "hubs": [],
+    "mBindings": [],
+    "groups": [],
+    "packages": [
+        {
+            "class": "org.kevoree.Package@fr",
+            "name": "fr",
+            "packages": [
+                {
+                    "class": "org.kevoree.Package@inria",
+                    "name": "inria",
+                    "packages": [
+                        {
+                            "class": "org.kevoree.Package@diverse",
+                            "name": "diverse",
+                            "packages": [
+                                {
+                                    "class": "org.kevoree.Package@noveltytesting",
+                                    "name": "noveltytesting",
+                                    "packages": [
+                                        {
+                                            "class": "org.kevoree.Package@samples",
+                                            "name": "samples",
+                                            "packages": [],
+                                            "typeDefinitions": [
+                                                {
+                                                    "class": "org.kevoree.ComponentType@name=FunctionsImpl,version=0.1.0",
+                                                    "abstract": "false",
+                                                    "name": "FunctionsImpl",
+                                                    "version": "0.1.0",
+                                                    "deployUnits": [
+                                                        "packages[fr]/packages[inria]/packages[diverse]/packages[noveltytesting]/packages[samples]/deployUnits[hashcode=,name=kevoree-comp-functionsimpl,version=0.1.0]"
+                                                    ],
+                                                    "superTypes": [],
+                                                    "dictionaryType": [
+                                                        {
+                                                            "class": "org.kevoree.DictionaryType@0.83150790096260611415196974284",
+                                                            "generated_KMF_ID": "0.83150790096260611415196974284",
+                                                            "attributes": []
+                                                        }
+                                                    ],
+                                                    "metaData": [],
+                                                    "required": [],
+                                                    "provided": [
+                                                        {
+                                                            "class": "org.kevoree.PortTypeRef@concat",
+                                                            "noDependency": "true",
+                                                            "optional": "true",
+                                                            "name": "concat",
+                                                            "ref": [],
+                                                            "mappings": []
+                                                        },
+                                                        {
+                                                            "class": "org.kevoree.PortTypeRef@sum",
+                                                            "noDependency": "true",
+                                                            "optional": "true",
+                                                            "name": "sum",
+                                                            "ref": [],
+                                                            "mappings": []
+                                                        },
+                                                        {
+                                                            "class": "org.kevoree.PortTypeRef@eco",
+                                                            "noDependency": "true",
+                                                            "optional": "true",
+                                                            "name": "eco",
+                                                            "ref": [],
+                                                            "mappings": []
+                                                        },
+                                                        {
+                                                            "class": "org.kevoree.PortTypeRef@inverse",
+                                                            "noDependency": "true",
+                                                            "optional": "true",
+                                                            "name": "inverse",
+                                                            "ref": [],
+                                                            "mappings": []
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "deployUnits": [
+                                                {
+                                                    "class": "org.kevoree.DeployUnit@hashcode=,name=kevoree-comp-functionsimpl,version=0.1.0",
+                                                    "name": "kevoree-comp-functionsimpl",
+                                                    "hashcode": "",
+                                                    "url": "",
+                                                    "version": "0.1.0",
+                                                    "requiredLibs": [],
+                                                    "filters": [
+                                                        {
+                                                            "class": "org.kevoree.Value@platform",
+                                                            "name": "platform",
+                                                            "value": "javascript"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "typeDefinitions": [],
+                                    "deployUnits": []
+                                }
+                            ],
+                            "typeDefinitions": [],
+                            "deployUnits": []
+                        }
+                    ],
+                    "typeDefinitions": [],
+                    "deployUnits": []
+                }
+            ],
+            "typeDefinitions": [],
+            "deployUnits": []
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+add node0 : JavascriptNode/4.0.0-SNAPSHOT
+add sync : WSGroup
+add node0.myComp : fr.inria.diverse.noveltytesting.samples.FunctionsImpl
+
+attach node0 sync
+
+set sync.port/node0 = "9000"
