@@ -1,6 +1,6 @@
 {
   "name": "kevoree-comp-functionsimpl",
-  "version": "0.0.1",
+  "version": "0.0.2-SNAPSHOT",
   "main": "./lib/FunctionsImplComp.js",
   "kevoree": {
     "package": "fr.inria.diverse.noveltytesting.samples"
